@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+        
+    
+    <link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="reset.css">
+
+
+<!-- 헤더 -->
+<link rel="stylesheet" href="header.css">
+
+<!-- 메뉴 -->
+<link rel="stylesheet" href="headermenu.css"> 
+
+
+<style>
+    body {background-color: #fff}
+    #wrap {width: 100%; height: 100%; margin: 0 auto; text-align: center;}
+    #header {width: 90%; height: 10%; padding: 10px 10px 10px 60px; }
+    #nav {width: 100%; height: 150px;  font-size: 20px; text-align: center;  }
+    #contents {width: 90%; height: 62%; padding: 10px 10px 10px 60px; }
+    #footer {width: 100%; height: 10%; } 
+
+</style>
+
+</head>
+
+<title>폴미</title>
+<body>
+<div id = "warp">
+    
+    <div id = "header">
+
+        <header class="header">
+
+    
+            <div class="header__logo">
+                <a href="main.html">
+                    <h1>FOR ME</h1>
+                    <p>자기개발 나를위한</p>
+                </a>
+            </div>
+    
+            <div class="header__gnb">
+                <ul>
+                    <li>
+                        <ul>
+                            <li><a href="bukit.html"> 버킷리스트 </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="plan.html">계획예시제공</a></li>
+    
+                    <li><a href="list.html">게시판</a></li>
+
+                    <li><a href="login.html">로그인</a></li>
+    
+                    <li><a href="main.html">로그아웃</a></li>			
+                </ul>
+            </div>
+          
+        </header>
+
+    </div>
+
+</head>
+<body>
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>게시판</strong>
+        </div>
+        <div class="board_list_wrap">
+            <div class="board_list">
+                <div class="top">
+                    <div class="num">번호</div>
+                    <div class="title">제목</div>
+                    <div class="writer">글쓴이</div>
+                    <div class="date">작성일</div>
+                    <div class="count">조회</div>
+                </div>
+                <div>
+                    <div class="num">5</div>
+                    <div class="title"><a href="view.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김하나</div>
+                    <div class="date">2021.1.15</div>
+                    <div class="count">33</div>
+                </div>
+                <div>
+                    <div class="num">4</div>
+                    <div class="title"><a href="view.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김두울</div>
+                    <div class="date">2021.1.15</div>
+                    <div class="count">33</div>
+                </div>
+                <div>
+                    <div class="num">3</div>
+                    <div class="title"><a href="view.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김세엣</div>
+                    <div class="date">2021.1.15</div>
+                    <div class="count">33</div>
+                </div>
+                <div>
+                    <div class="num">2</div>
+                    <div class="title"><a href="view.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김네엣</div>
+                    <div class="date">2021.1.15</div>
+                    <div class="count">33</div>
+                </div>
+                <div>
+                    <div class="num">1</div>
+                    <div class="title"><a href="view.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김다섯</div>
+                    <div class="date">2021.1.15</div>
+                    <div class="count">33</div>
+                </div>
+            </div>
+            <div class="board_page">
+                <a href="#" class="bt first"></a>
+                <a href="#" class="bt prev"></a>
+                <a href="#" class="num on">1</a>
+                <a href="#" class="num">2</a>
+                <a href="#" class="num">3</a>
+                <a href="#" class="num">4</a>
+                <a href="#" class="num">5</a>
+                <a href="#" class="bt next">></a>
+                <a href="#" class="bt last">>></a>
+            </div>
+            <div class="bt_wrap">
+                <a href="write.html" class="on">등록</a>
+            </div>
+            <div id = "footer"></div>
+        </div>
+    </div>
+</body>
+</html> 

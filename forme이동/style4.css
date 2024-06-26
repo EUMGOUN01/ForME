@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 5px;
+  }
+
+.submit-btn {
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+    width: 460px;
+    background-color: #8952E7;
+    margin-bottom: 20px;
+    color: white;
+  }

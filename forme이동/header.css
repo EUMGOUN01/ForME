@@ -1,0 +1,50 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+.header_logo_img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.header {
+	height: 145px;
+	text-align:  center;
+	box-sizing: border-box;
+	border-bottom: 1px solid #999;
+}
+
+.header__logo h1 {
+	font: bold 40px 'arial';
+	padding-top: 14px;
+	letter-spacing: 2px;
+}
+
+.header__logo p{
+	font: bold 12px arial;
+	letter-spacing: 2px;
+	margin-top: -1px;
+}
+
+.header__gnb ul {
+	margin-top: 39px;
+}
+
+.header__gnb ul li {
+	display: inline-block;
+}
+
+.header__gnb ul li a {
+	display: block;
+	font: bold 14px 'arial';
+	color: #999;
+	margin: 0px 16px;
+	letter-spacing: 1px;
+}
