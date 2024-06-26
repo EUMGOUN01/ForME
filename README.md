@@ -1,7 +1,7 @@
 <br>
 
 <h1 align="center">[2021] 자기계발 및 개발 웹페이지 제작 프로젝트</h1>
-<p align="center"><strong>ForME</strong>는 사용자가 자기계발 및 개발 활동을 다이어리 형식으로 <br>
+<p align="center"><strong>ForME</strong>는 사용자가 자기계발 및 개발 활동을 달력 형식으로 <br>
 작성하여 쉽게 자신의 일정을 관리할 수 있도록 돕는 웹페이지입니다.</p>
 
 <br>
